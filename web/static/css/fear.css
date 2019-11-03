@@ -1,0 +1,51 @@
+html {
+    background: url("../jpg/mountain.jpg") no-repeat center center fixed;
+    /*Photo by Sven Scheuermeier on Unsplash*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.row {
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    padding: 10px;
+    height: 450px;
+    border: 15px solid transparent;
+    border-image: url("../../static/png/border1.png") 150 stretch;
+    background-color: rgba(255, 255, 255,0.8);
+}
+h1 {
+    font-size: 3.5em;
+    font-family: "Monotype Corsiva", Helvetica, serif;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px lightyellow;
+    color: goldenrod;
+}
+h2{
+    font-family: initial, serif;
+    color:goldenrod;
+    text-shadow: -1px -1px white;
+    font-weight: bold;
+}
+input{
+    font-size: 1em;
+    border: 10px solid transparent;
+    border-image: url("../../static/png/border.png") 20 stretch;
+    color:goldenrod;
+    text-shadow: -1px -1px gold;
+}
+a {
+    line-height: 80%;
+    text-align: center;
+    font-family: initial, serif;
+    font-size:1.5em;
+    color:darkcyan;
+    text-shadow: -1px -1px black;
+    padding-left: 200px;
+    font-weight: bold;
+}

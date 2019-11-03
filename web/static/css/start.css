@@ -1,0 +1,9 @@
+
+html {
+    background: url("../jpg/pond.jpg") no-repeat center center fixed;
+    /*Photo by Banter Snaps on Unsplash*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

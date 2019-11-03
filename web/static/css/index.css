@@ -1,0 +1,88 @@
+
+html {
+    background: url("../jpg/lake.jpg") no-repeat center center fixed;
+    /*Photo by Banter Snaps on Unsplash*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: powderblue;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.5em;
+    font-family: "Monotype Corsiva", serif;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px #D3D3D3;
+    text-decoration-style: dotted;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+}
+
+@-webkit-keyframes mymove {
+    from {color: #6495ED;}
+    to {color: #20B2AA;}
+}
+
+.row {
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    border: 15px solid transparent;
+    border-image: url("../../static/png/border1.png") 150 stretch;
+    background-color: rgba(255, 255, 255,0.8);
+}
+p{
+    font-family: initial, serif;
+    font-size:1.5em;
+    color:darkcyan;
+    text-shadow: -1px -1px black;
+    padding-left: 50px;
+    font-weight: bold;
+}
+a {
+    text-align: center;
+    font-size: 2em;
+    border: 10px solid transparent;
+    border-image: url("../../static/png/border.png") 20 stretch;
+    color:goldenrod;
+    text-shadow: -1px -1px gold;
+    position: absolute;
+    left: 250px;
+}
+
+h3{
+    line-height: 80%;
+    text-align: center;
+    font-family: initial, serif;
+    font-size:1.5em;
+    color:darkcyan;
+    text-shadow: -1px -1px black;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+video{
+    position: absolute;
+    left: 800px;
+}
